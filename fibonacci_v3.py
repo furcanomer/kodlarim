@@ -2,7 +2,7 @@
 # 3. versiyon
 # instagram.com/furcanomer
 while True: # programın ana döngüsü
-    try:    # Hata kontrolü yapıyorum. Kullanıcı, sayı girilmesi gereken yere yazı yazabilir.
+    try:    # Hata kontrolü yaptım. Kullanıcı, sayı girilmesi gereken yere yazı yazabilir.
         i = float(input("Fibonacci dizisi sınırını belirleyin: "))  # istediğimiz sayı tipini gerçek sayı (float) yaptım
                                                                     # ki kullanıcı gerçek sayı da yazabilsin.
                                                                     # programda hata meydana gelmesin.
