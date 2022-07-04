@@ -21,7 +21,7 @@ while True: # programın ana döngüsü
     
         elif i <= 0:
             print("Lütfen poztif bir sayı giriniz.")
-            continue    # pozitif bir sayı girilmediğinde ana while döngüsünü yeniden başlattım.
+            continue    # pozitif bir sayı girilmediği için ana while döngüsünü yeniden başlattım.
 
         else:   # Tanımlanamayan bir sayı girilebilr diye temkinli davrandım.
             print("Tanımlanamayan durum.")
