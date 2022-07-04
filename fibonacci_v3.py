@@ -28,5 +28,5 @@ while True: # programın ana döngüsü
             continue    # Tanımlanamayan bir durum oluştuğu için ana while döngüsünü yeniden başlattım.
 
     except ValueError:  # Sayı istediğimiz yere yazı yazılabilir diye hata kontrolü yaptım.              
-        print("Sayı girilmesi yere yazı yazdınız.\nLütfen sayı giriniz.")   #Ve bunu kullanıcıya bildirdim.
+        print("Sayı girilmesi yere yazı yazdınız.\nLütfen sayı giriniz.")   #Bu hatayı kullanıcıya bildirdim.
         continue    # Bir hata meydana geldiği için ana while döngüsünü yeniden başlattım.
