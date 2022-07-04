@@ -21,11 +21,11 @@ while True: # programın ana döngüsü
     
         elif i <= 0:
             print("Lütfen poztif bir sayı giriniz.")
-            continue    # pozitif bir sayı girilmediğinde ana while döngüsünü başa alıyorum.
+            continue    # pozitif bir sayı girilmediğinde ana while döngüsünü yeniden başlattım.
 
         else:   # Tanımlanamayan bir sayı girilebilr diye temkinli davrandım.
             print("Tanımlanamayan durum.")
-            continue
+            continue    # Tanımlanamayan bir durum oluştuğu için ana while döngüsünü yeniden başlattım.
 
     except ValueError:  # Sayı istediğimiz yere yazı yazılabilir diye hata kontrolü yaptım.              
         print("Sayı girilmesi yere yazı yazdınız.\nLütfen sayı giriniz.")   #Ve bunu kullanıcıya bildirdim.
