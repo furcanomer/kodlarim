@@ -11,4 +11,3 @@ while b < 255:  # b sayısını 255 ile sınırladım.
                 # bu yüzden yeni b den eski a yı çıkarıp yeni a yı oluşturdum.
 
 # instagram.com/furcanomer
-# genellikle istekleri kabul etmem
