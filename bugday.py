@@ -24,5 +24,3 @@ print(str(adim)+". adım:",bugday)
 print("\nToplam:",toplam + 1)
 # +1 ilk baştaki bugday değeri işlenmediği için ekledim.
 # Toplam değerine ilk adımda 3 eklenmesi gerekirken 2 eklendiği için o ayarı yaptım.
-
-
