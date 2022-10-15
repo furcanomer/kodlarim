@@ -4,8 +4,8 @@ Bu uyanık, krala demiş ki "Satranç tahtasının ilk karesine bir buğday koya
 Her bir karede bugday 2 katına çıkarak ilerleyecek ve işin sonunda Ben bu satranç tahtasının
 üzerindeki bütün bugdayı alacağım." demiş. Kral, herhalde az gelecek, diye düşünerek
 bunu kabul etmiş ama oluşan sonuç baya büyükmüş. işte bu sonucu veren programın kodları.
-
 """
+
 toplam = 0
 bugday = 1
 adim = 1
