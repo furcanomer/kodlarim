@@ -1,6 +1,6 @@
 # fibonacci sayıları kodu
 # 3. versiyon
-# instagram.com/furcanomer
+# twitter.com/omer_can80
 while True: # programın ana döngüsü
     try:    # Hata kontrolü yaptım. Kullanıcı, sayı girilmesi gereken yere yazı yazabilir.
         i = float(input("Fibonacci dizisi sınırını belirleyin: "))  # istediğimiz sayı tipini gerçek sayı (float) yaptım
