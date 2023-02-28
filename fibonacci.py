@@ -9,5 +9,3 @@ while b < 255:  # b sayısını 255 ile sınırladım.
     a = b - a   # yeni oluşan b nin kendinden bir önceki sayı eski b
                 # eski b yeni oluşan b ye a nın eklenmemiş halidir.
                 # bu yüzden yeni b den eski a yı çıkarıp yeni a yı oluşturdum.
-
-# instagram.com/furcanomer
