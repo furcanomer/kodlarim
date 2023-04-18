@@ -3,7 +3,7 @@ baslik = "Sayı Tahmin Oyunu 1.0\n"
 print(baslik)
 print("""Sayıyı aklında tutan kişi, aklında tuttuğu sayıyı programa girer.
 Sonra program, akılda tutulan sayıyı kendi zekasında tutar ve ekrandan gizler.
-Sonra sayıyı tahmin etmeye çalışan oyuncu veya oyuncular
+Sonra tahmin etmeye çalışan oyuncu veya oyuncular
 ekrana tahmin ettikleri sayıları girerler.
 Eğer başarılı olurlarsa oyun biter.
 Eğer yanlış tahmin ederlerse oyun, doğru tahmin edilene kadar devam eder.
