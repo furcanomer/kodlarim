@@ -18,4 +18,4 @@ while True:
         break
     else:
         continue
-a = input("Oyundan çıkmak için 'Enter' tuşuna basabilirsin")
+a = input("Oyundan çıkmak için 'Enter' tuşuna basabilirsin\n")
