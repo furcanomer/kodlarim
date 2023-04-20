@@ -1,7 +1,7 @@
 import os
 while True:
     os.system("cls")
-    baslik = "Sayı Tahmin Oyunu 2.2.1\n"
+    baslik = "Sayı Tahmin Oyunu 2.3\n"
     print(baslik)
     print("""Sayıyı aklında tutan kişi, aklında tuttuğu sayıyının, hangi sayılar aralığında olduğunu
 belirtir. Sonra aklında tuttuğu sayıyı programa girer.
@@ -12,9 +12,20 @@ Eğer başarılı olurlarsa oyun biter.
 Eğer yanlış tahmin ederlerse oyun, doğru tahmin edilene kadar devam eder.
 """)
     while True:
-        x = int(input("Tuttuğun sayı, hangi sayılar arasında?\nAralığın ilk değeri: "))
-        y = int(input("Aralığın son son değeri: "))
-
+        while True:
+            try:
+                x = int(input("Tuttuğun sayı, hangi sayılar arasında?\nAralığın ilk değeri: "))
+                break
+            except:
+                print("Anlamadım. Tekrar söyle.")
+                continue
+        while True:
+            try:
+                y = int(input("Aralığın son son değeri: "))
+                break
+            except:
+                print("Anlamadım. Tekrar söyle.")
+                continue
         if (x > y):
             bas = y
             bit = x
@@ -26,14 +37,24 @@ Eğer yanlış tahmin ederlerse oyun, doğru tahmin edilene kadar devam eder.
         else:
             print("Aralık belirtirken, başlangıç sayısı ve bitiş sayısı eşit olamaz.\nTekrar dene.")
             continue
-    while True: 
-        tutulan_sayi = int(input("Tuttuğun sayıyı gir: "))
+    while True:
+        try:
+            tutulan_sayi = int(input("Tuttuğun sayıyı gir: "))
+        except:
+            print("Anlamadım. Tekrar söyle.")
+            continue
         if tutulan_sayi >= bas and tutulan_sayi <= bit:
             os.system("cls")
             print(baslik)
             print("Tahmin edeceğin sayı,",bas,"ve",bit,"aralığında olmalıdır.")
             while True:
-                sayi = int(input("Sayıyı tahmin et: "))
+                while True:
+                    try:
+                        sayi = int(input("Sayıyı tahmin et: "))
+                        break
+                    except:
+                        print("Anlamadım. Tekrar söyle.")
+                        continue
                 if (sayi == tutulan_sayi):
                     print("Bravo Sayıyı doğru tahmin ettin.\n")
                     break
