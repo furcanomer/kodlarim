@@ -1,7 +1,7 @@
 import os
 while True:
     os.system("cls")
-    baslik = "Sayı Tahmin Oyunu 2.3\n"
+    baslik = "Sayı Tahmin Oyunu 2.3.0.1\n"
     print(baslik)
     print("""Sayıyı aklında tutan kişi, aklında tuttuğu sayıyının, hangi sayılar aralığında olduğunu
 belirtir. Sonra aklında tuttuğu sayıyı programa girer.
@@ -21,7 +21,7 @@ Eğer yanlış tahmin ederlerse oyun, doğru tahmin edilene kadar devam eder.
                 continue
         while True:
             try:
-                y = int(input("Aralığın son son değeri: "))
+                y = int(input("Aralığın son değeri: "))
                 break
             except:
                 print("Anlamadım. Tekrar söyle.")
