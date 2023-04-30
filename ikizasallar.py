@@ -21,8 +21,10 @@ def asalmi(x):
                 return 0
             else:
                 return 1
+            
 sayi = int(input("Başlangıç sayısını gir: "))
 sayi2 = sayi + 2
+
 while True:
     if asalmi(sayi) and asalmi(sayi2):
         print(sayi,sayi2)
