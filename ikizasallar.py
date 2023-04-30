@@ -19,8 +19,8 @@ def asalmi(x):
         for i in range(2,x):
             if x % i == 0:
                 return 0
-            else:
-                return 1
+           
+        return 1
             
 sayi = int(input("Başlangıç sayısını gir: "))
 sayi2 = sayi + 2
