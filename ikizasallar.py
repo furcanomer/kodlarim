@@ -1,3 +1,7 @@
+# ikiz asallar sonsuza kadar gidiyor mu?
+# bu kanıtlanmış bir şey değil
+# bu durumu ölçmek için yazdığım bir program
+
 def asalmi(x):
     if x == 2:
         return 1
