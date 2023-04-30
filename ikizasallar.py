@@ -9,11 +9,7 @@
 def asalmi(x):
     if x == 2:
         return 1
-    elif x == 1:
-        return 0
-    elif x == 0:
-        return 0
-    elif x < 0:
+    elif x < 2:
         return 0
     else:
         for i in range(2,x):
