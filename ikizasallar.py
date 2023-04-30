@@ -17,7 +17,8 @@ def asalmi(x):
                 return 0
            
         return 1
-            
+print("ikiz_asallar 1.0")
+print("https://github.com/furcanomer\n")         
 sayi = int(input("Başlangıç sayısını gir: "))
 sayi2 = sayi + 2
 
