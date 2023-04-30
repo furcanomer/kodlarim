@@ -1,7 +1,10 @@
 # ikiz asallar sonsuza kadar gidiyor mu?
 # bu kanıtlanmış bir şey değil
 # bu durumu ölçmek için yazdığım bir program
-
+# bir sayı girersiniz ve program bu sayıdan itibaren
+# birer birer ilerler ve ikiz asalları üretir
+# ürettiği tüm sayıları da programı çalıştırdığınız
+# dizinde bir text dosyasına kaydeder
 def asalmi(x):
     if x == 2:
         return 1
