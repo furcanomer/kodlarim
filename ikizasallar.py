@@ -17,7 +17,7 @@ def asalmi(x):
                 return 0
            
         return 1
-print(" * * *  ikiz Asallar 1.2  * * * ")
+print(" * * *  ikiz Asallar 1.3  * * * ")
 print("-----------------------------------")
 print("https://github.com/furcanomer")
 print("-----------------------------------\n")
@@ -35,13 +35,27 @@ while True:
         print("Böyle bir dosya var. Başka bir dosya adı girin.")
     else:
         dosya = open(dosyam,"a")
-        print("Tamamdır. Dosya başarıyla oluşturuldu.")
+        print("Tamamdır. Dosya başarıyla oluşturuldu.\n")
+        break
+hata = 0
+while True:
+    try:
+        sayi = int(input("Başlangıç sayısını girin: "))
+    except:
+        hata = 1
+    
+    if (hata == 1):
+        print("Lütfen doğal sayı girin!")
+        hata = 0
+        continue
+    elif (sayi < 0):
+        print("Negatif sayılar asal olamaz!\nLütfen doğal sayı girin.\n")
+        continue
+    else:
         break
 
-sayi = int(input("Başlangıç sayısını girin: "))
 sayi2 = sayi + 2
 print("\n")
-
 
 while True:
     if asalmi(sayi) and asalmi(sayi2):
