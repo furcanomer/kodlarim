@@ -45,7 +45,7 @@ while True:
         hata = 1
     
     if (hata == 1):
-        print("Lütfen doğal sayı girin!")
+        print("Lütfen doğal sayı girin!\n")
         hata = 0
         continue
     elif (sayi < 0):
