@@ -17,14 +17,22 @@ def asalmi(x):
                 return 0
            
         return 1
-print("ikiz_asallar 1.1")
-print("https://github.com/furcanomer\n")
+print(" * * *  ikiz Asallar 1.2  * * * ")
+print("-----------------------------------")
+print("https://github.com/furcanomer")
+print("-----------------------------------\n")
+print("-----------------------------------------------------------------------")
+print("Uyarı 1:     Programı kapatırken Ctrl+c tuş kombinasyonuyla kapatın.")
+print("             Penceredeki çarpı tuşuyla kapatırsanız")
+print("             üretilen sayılar text dosyasına kaydolmaz.\n")
+print("Uyarı 2:     Büyük bir sayı girerseniz program yavaş çalışacaktır.")
+print("-----------------------------------------------------------------------\n")
 
 while True: 
-    dosya_adi = input("oluşturulacak dosya adı ne olsun: ")
+    dosya_adi = input("Oluşturulacak dosya adı ne olsun: ")
     dosyam = dosya_adi+".txt"
     if os.path.isfile(dosyam):
-        print("böyle bir dosya var. başka bir dosya adı girin.")
+        print("Böyle bir dosya var. Başka bir dosya adı girin.")
     else:
         dosya = open(dosyam,"a")
         print("Tamamdır. Dosya başarıyla oluşturuldu.")
@@ -32,7 +40,7 @@ while True:
 
 sayi = int(input("Başlangıç sayısını girin: "))
 sayi2 = sayi + 2
-
+print("\n")
 
 
 while True:
